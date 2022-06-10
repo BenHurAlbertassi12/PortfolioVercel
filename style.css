@@ -1,0 +1,23 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: #ccc5b9;
+  font-family: Nunito, sans-serif;
+  color: #3d495c;
+  text-align: center;
+}
+ ul {
+     overflow: auto;
+ }
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+.img {
+width: 250px;
+}
