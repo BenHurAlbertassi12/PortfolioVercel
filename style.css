@@ -36,10 +36,7 @@ margin: 20px;
 h2, h3, h4 {
 
 line-height: 36px;
-margin: auto;
-padding: auto;
-border: auto;
-display: inline-block;
+
 }
 
  li {
@@ -64,6 +61,17 @@ border-radius: 50%;
 margin: 0px 15px 30px 15px;
 
 }
+
+footer, .li-footer {
+  display: inline-block;
+ 
+  }
+
+  .li-footer{
+
+    width: 250px;    
+
+  }
 
 
 
