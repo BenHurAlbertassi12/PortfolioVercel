@@ -9,15 +9,18 @@ body {
   color: #3d495c;
   text-align: center;
 }
- ul {
-     overflow: auto;
+ li {
+     list-style: none;
  }
 
 h1 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Tahoma, sans-serif;
   text-align: center;
 }
 
 .img {
 width: 250px;
+border-radius: 50%;
+
 }
+
