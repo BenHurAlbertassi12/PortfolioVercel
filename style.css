@@ -1,77 +1,61 @@
 *{
   margin: 0%;
   padding: 0%;
+  box-sizing: border-box;
 }
 
 body {
-  background-color: #ccc5b9;
+
   font-family: Nunito, sans-serif;
-  color: #3d495c;
-  text-align: center;
-  line-height: 20px;
+  background-color: #ccc5b9;
+  /* text-align: center; */
 }
 
-.section-skill {
-display: inline-block;
-text-align: center;
-width: 250px;
-border: 15px solid green;
-padding: 50px;
-margin: 20px;
+.header_h1 {
+
+  background-color: #2FC18C;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.img-centro { 
+  display: flex;
+  justify-content: space-around;
 
 }
 
 
-.section-Habilidades{
 
-  display: inline-block;
-  text-align: center;
+
+
+img {
   width: 250px;
-  border: 15px solid green;
-  padding: 50px;
-  margin: 15px 15px 15px 15px;
+  border-radius: 50%;
+  padding: 5px;
+  border: 5px solid rgb(255, 255, 255);
+  margin: 20px 10px;  
+  display: flex;
+  align-content: center;
+
+
+
+  
+}
+
+li {
+  list-style: none;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  background-color: #2FC18C;
 
 }
 
-h2, h3, h4 {
-
-line-height: 36px;
-
+.sobre-mim {
+  display: flex;
+  justify-content: space-around;
 }
-
- li {
-     list-style: none;
-     line-height: 24px;
-     width: 300px;
-     
-     
- }
-
-h1 {
-  font-family: Verdana, Tahoma, sans-serif;
-  text-align: center;
-  line-height: 100px;
-
-
-}
-
-.img {
-width: 250px;
-border-radius: 50%;
-margin: 0px 15px 30px 15px;
-
-}
-
-footer, .li-footer {
-  display: inline-block;
- 
-  }
-
-  .li-footer{
-
-    width: 250px;    
-
-  }
-
-
 
