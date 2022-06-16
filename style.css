@@ -20,17 +20,24 @@ body {
  }
 
 .header_h1 {
+
+  
   
   font-size: 5.5vw; /* vw Relativo a 1% da largura da janela de visualização */
   color: #197278;
   text-align: center;
   padding: 20px 0;
+ 
     
 }
 
 .img-centro { 
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  max-width: 100%;
+  height: auto;
+  
+  
 
 }
 
@@ -97,7 +104,7 @@ height: 2px;
 border-width: 0;
 color: #772E25;
 background-color: #772E25;
-width: 600px;
+width: 60%;
 display: flex;
 justify-content: space-around;
 margin: auto;
@@ -110,7 +117,7 @@ margin-bottom: 5px;
   border-width: 0;
   color: #772E25;
   background-color: #772E25;
-  width: 300px;
+  width: 30%;
   display: flex;
   justify-content: space-around;
   margin: auto; 
