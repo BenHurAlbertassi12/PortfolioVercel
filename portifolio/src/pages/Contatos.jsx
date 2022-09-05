@@ -7,18 +7,22 @@ class Contatos extends React.Component {
     return (
       <div>
         <Header />
-        <section className='section-header'>
+        <br />
+        <section className='section-header selecao'>
           <h1>C o n t a t o</h1>
           <hr />
             <br />
           <h4>Endereço</h4>
+           <hr className='linhaEndereco' />
            <p>Rio de Janeiro / Brasil</p>
            <p>Setubal / Portugal</p>
             <br />
           <h4>Telefone</h4>
+          <hr className='linhaTelefone' />
            <p>(24)99999-8028</p>
             <br />
           <h4>E-mail</h4>
+           <hr className='linhaEmail' />
            <p>albertassibenhur@gmail.com</p>
         </section>
       </div>
