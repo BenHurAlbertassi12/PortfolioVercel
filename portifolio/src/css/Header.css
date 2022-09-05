@@ -1,0 +1,14 @@
+.cabecalho {
+    width: 1580px;
+    /* margin: 15px; */
+    background-color: rgb(50, 167, 145);
+
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.linki {
+    border: 1px;
+    padding: 1px;
+    margin: 1px;
+}

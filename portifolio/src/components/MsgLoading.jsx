@@ -1,8 +1,9 @@
 import React from 'react';
+import '../css/Header.css';
 
 class MsgLoading extends React.Component {
   render() {
-    return <p>Carregando...</p>;
+    return <p className='linki'>Carregando...</p>;
   }
 }
 
