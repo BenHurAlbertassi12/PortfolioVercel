@@ -5,7 +5,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Login from './pages/Login';
 import Welcome from './pages/Welcome';
 import PageNotFound from './pages/PageNotFound';
-import Sobremim from './components/SobreMim';
+import SobreMim from './pages/SobreMim';
 import Projetos from './pages/Projetos';
 import Contatos from './pages/Contatos';
 
@@ -28,7 +28,7 @@ class App extends React.Component {
           <Route
             exact
             path="/sobre"
-            component={Sobremim}
+            component={SobreMim}
           />
           <Route
             exact
