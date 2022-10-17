@@ -7,7 +7,7 @@ class PageNotFound extends React.Component{
         return (
         <div>
             <Header />
-            <h1>Pagina não existe</h1>
+            <h1>Só depende de vc</h1>
         </div>
     )
     }
