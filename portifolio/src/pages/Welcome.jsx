@@ -1,17 +1,17 @@
-import React from 'react';
-import Header from '../components/Header';
+import React from "react";
+import Header from "../components/Header";
 
 class Welcome extends React.Component {
   render() {
-    return (
-      <div>
-        <Header />
+      return (
         <div>
-
-        <h1>"Ben" Vindo</h1>
+            <Header />
+      <div>
+            <h1>Bem Vindo</h1>
         </div>
       </div>
     );
   }
 }
+
 export default Welcome;
