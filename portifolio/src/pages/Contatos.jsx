@@ -37,7 +37,7 @@ class Contatos extends React.Component {
                 <img className='git' src={github} alt='GitHub' />
               </a>
               <a
-                href='https://github.com/BenHurAlbertassi12'
+                href='https://www.linkedin.com/in/benhuralbertassi/'
                 target='_blank'
                 rel='noreferrer'>
                 <img className='linke' src={linkedin} alt='Linkedin' />
