@@ -7,7 +7,7 @@ class Welcome extends React.Component {
       <div>
         <Header />
         <div>
-          <h1>Contatos</h1>
+          <h1>Contato</h1>
         </div>
       </div>
     );

@@ -4,6 +4,7 @@ import Sobre from "./pages/Sobre";
 import Contato from "./pages/Contato";
 import Projetos from "./pages/Projetos";
 import Login from "./pages/Login";
+import PNF from "./pages/PNF";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
         <Route
           exact
           path='/'
-          component={ Login } />
+          component={Login} />
         <Route
           exact
           path='/Welcome'
@@ -33,7 +34,12 @@ function App() {
           path='/Projetos'
           component={Projetos}
         />
-    </Switch>
+        <Route
+          exact
+          path='/PNF'
+          component={PNF}
+        />
+      </Switch>
     </BrowserRouter>
   );
 }
