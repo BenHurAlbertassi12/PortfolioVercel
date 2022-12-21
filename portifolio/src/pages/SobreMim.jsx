@@ -12,21 +12,21 @@ class SobreMim extends React.Component {
     return (
       <div>
         <Header />
+        <div className='titulo'>
+          <h1 className='name'>Ben Hur Albertassi</h1>
+          <h2>Desenvolvedor <br /> F u l l - s t a c k </h2>
+        </div>
         <body>
-          <div className='titulo'>
-            <h1>Ben-Hur Albertassi</h1>
-            <h2>Desenvolvedor Full-stack</h2>
-          </div>
           <div className='sobre'>
             <section className='sobreMim'>
               <img
                 src={EuUnicaFotoBonita}
                 alt='BenHur Albertassi fazendo foto de modelo'
                 className='fotoBonita'
-                />
+              />
               <div className='textSobre'>
                 <h3>Sobre Mim</h3>
-                <p>
+                <p className='p'>
                   Sou Apaixonado pela pela evolução humana e por toda a
                   tecnologia criada, acredito estarmos vivendo uma das melhores
                   épocas em relação ao desenvolvimento tecnológico.
@@ -51,7 +51,7 @@ class SobreMim extends React.Component {
             <section className='prof'>
               <div className='textSobre'>
                 <h3>Profissional</h3>
-                <p>
+                <p className='p'>
                   Consegui meu primeiro emprego aos 12 anos em um escritório de
                   advocacia, ao completar 18 anos fui convidado para trabalhar
                   na Radio88fm onde permaneci por 12 anos, meu primeiro ano foi
@@ -62,11 +62,11 @@ class SobreMim extends React.Component {
                   comercial
                 </p>
               </div>
-                <img
-                  src={EstudioAdore}
-                  alt='Estudios Radio Adore Fm 2021'
-                  className='fotoEstudio'
-                />
+              <img
+                src={EstudioAdore}
+                alt='Estudios Radio Adore Fm 2021'
+                className='fotoEstudio'
+              />
             </section>
             <hr />
             <section className='lazer'>
@@ -76,8 +76,8 @@ class SobreMim extends React.Component {
                 className='fotoTeatro'
               />
               <div className='textSobre'>
-              <h3>Curiosidades</h3>
-                <p>
+                <h3>Curiosidades</h3>
+                <p className='p'>
                   Como um bom nerd eu adoro:
                   <br></br>
                   Filmes e series/animes
@@ -90,7 +90,7 @@ class SobreMim extends React.Component {
                   <br />
                   Volei e Patins.
                 </p>
-                <p>Ja fiz curso de dublagem e adoro atuar</p>
+                <p className='p'>Ja fiz curso de dublagem e adoro atuar</p>
               </div>
             </section>
           </div>
