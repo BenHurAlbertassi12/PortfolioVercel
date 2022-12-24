@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.fotoTeatro {
+width: 50vh;
+}
+.fotoEstudio{
+width: 50vh;
+}
+.fotoBonita{
+width: 25vh;
+}
+.p{
+    width:100vh
+}
+.sobre {
+    display: inline-box;
+    justify-content: center;
+
+}
+
+.prof, .lazer {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.sobreMim {
+    margin-top: 500px;
+    display: flex;
+    align-items: center;
+}
+.textSobre{
+   text-align: center;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+.lazer {
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+.titulo {
+    margin-top: 250px;
+}
+
+.name{
+    font-size:52px;
+}
