@@ -1,62 +1,31 @@
 * {
-    padding: 0;
-    margin: 0;
+padding: 0;
+margin: 0;
 }
 
-body {
-    margin: 0;
-}
-
-.fotoTeatro {
-width: 50vh;
-}
-.fotoEstudio{
-width: 50vh;
-}
-.fotoBonita{
-width: 25vh;
-}
-.p{
-    width:100vh
-}
-.sobre {
-    display: inline-box;
-    justify-content: center;
-
-}
-
-.prof, .lazer {
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    
-}
-
-.sobreMim {
-    margin-top: 500px;
-    display: flex;
-    align-items: center;
-}
 .textSobre{
-   text-align: center;
+width: 450px;
+min-width: 350px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+justify-items: center;
+text-align: center;
+
+}
+.sobreMim{
+margin-top: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+justify-items: center;
+flex-wrap: wrap;
+text-align: center;
+
+
 }
 
-h3 {
-    margin-bottom: 10px;
+#p-fim{
+margin-bottom: 100px;
 }
 
-.lazer {
-    margin-bottom: 50px;
-}
-
-h1 {
-    font-size: xx-large;
-}
-
-.titulo {
-    margin-top: 250px;
-}
-
-.name{
-    font-size:52px;
-}

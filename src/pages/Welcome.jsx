@@ -25,10 +25,12 @@ class Welcome extends React.Component {
     return (
       <div>
         <Header />
-        <div>
-          <h1>Ola! Seja bem vindo {nome}, este é meu Portifólio</h1>
-          <br></br>
-          <h3>
+        <div className='body-header'>
+          <h1 className='h1-home'>
+            Ola! Seja bem vindo {nome}, este é meu Portifólio
+          </h1>
+          <br />
+          <h3 className='h3-home'>
             No navegador acima você encontra links para meus projetos e contatos
           </h3>
         </div>

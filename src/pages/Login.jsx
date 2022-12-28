@@ -1,7 +1,6 @@
 import React from 'react';
 import { Redirect } from 'react-router-dom';
 import { createUser } from '../services/userAPI';
-import MsgLoading from '../components/MsgLoading';
 import '../css/Login.css';
 
 class Login extends React.Component {
@@ -41,49 +40,49 @@ class Login extends React.Component {
   };
 
   render() {
-    const { name, loading, next } = this.state;
+    const { name, next } = this.state;
     return (
-      <div className='container' id='container'>
-        {loading && <MsgLoading />}
+      <div className='body-login'>
         {next && <Redirect to='/welcome' />}
-        <div className='form-container sign-in-container'>
-          <form>
-            <h1>Login</h1>
-            <span>
-              Coloque algo como: <br /> qualquer@coisa.com
-            </span>
-            <label htmlFor="name">
-            <input
-              type='text'
-              name='name'
-              id='name'
-              value={name}
-              onChange={this.trocarInput}
-              placeholder='Nome'
-            />
+        <div className='div-form'>
+          <form className='login-container'>
+            <h1 className='h1-login'>Login</h1>
+            <p className='p-login'>
+Ola, qual seu nome?
+            </p>
+            <label htmlFor='name'>
+              <input
+                className='input-text'
+                type='text'
+                name='name'
+                id='name'
+                value={name}
+                onChange={this.trocarInput}
+                placeholder='Nome'
+              />
             </label>
-            <label htmlFor='senha'>
-            <input name='senha' type='password' placeholder='Password' />
-            </label>
-            <span>Nada será salvo</span>
-            <button type='button' onClick={this.botaoEntrar} disabled={this.aprovado()}>
+            <button
+              className='button-login button-login-name-password'
+              type='button'
+              onClick={this.botaoEntrar}
+              disabled={this.aprovado()}>
               Entrar
             </button>
           </form>
-        </div>
 
-        <div className='overlay-container'>
-          <div className='overlay'>
-            <div className='overlay-panel overlay-right'>
-              <h1>Ir Direto</h1>
-              <p>Se preferir pode entrar direto</p>
-              <button
-                type='button'
-                onClick={this.botaoEntrar}
-                className='ghost'
-                id='signUp'>
-                Entrar
-              </button>
+          <div className=''>
+            <div className='overlay'>
+              <div className='entrar-container'>
+                <h1 className='h1-login'>Ir Direto</h1>
+                <p className='p-login'>Se preferir pode entrar direto</p>
+                <button
+                  className='button-login'
+                  type='button'
+                  onClick={this.botaoEntrar}
+                  id='signUp'>
+                  Entrar
+                </button>
+              </div>
             </div>
           </div>
         </div>

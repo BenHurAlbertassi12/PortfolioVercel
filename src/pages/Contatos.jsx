@@ -27,7 +27,7 @@ class Contatos extends React.Component {
             <br />
             <h4>E-mail</h4>
             <hr className='linhaEmail' />
-            <a href='mailto:someone@example.com'>albertassibenhur@gmail.com</a>
+            <a className='email' href='mailto:someone@example.com'>albertassibenhur@gmail.com</a>
             <br />
             <div className='social'>
               <a
