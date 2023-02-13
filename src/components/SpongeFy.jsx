@@ -6,7 +6,7 @@ class SpongeFy extends React.Component {
     return (
       <div className='projeto-div'>
         <a href='https://spongefy.vercel.app'>
-          <h3 className='h3-projeto'>Pixel Art</h3>
+          <h3 className='h3-projeto'>SpongeFy</h3>
 
           <img className='img-projeto' src={spongefy} alt='pixel-art' />
           <p className='p-projeto'>HTML/CSS/REACT</p>
