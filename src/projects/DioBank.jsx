@@ -9,7 +9,7 @@ class StarWars extends React.Component {
               <h3 className='h3-projeto'>D.I.O - Bank</h3>
 
               <img className='img-projeto' src={pixel} alt='StarWars' />
-              <p className='p-projeto'>HTML/BOOTSTRAP/JS</p>
+              <p className='p-projeto'>HTML/TYPESCRIPT/JS/CHARM</p>
             </a>
           </div>
         );
