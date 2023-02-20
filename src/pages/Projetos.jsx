@@ -10,18 +10,18 @@ import MercadoLivre from '../projects/MercadoLivre';
 class Projetos extends React.Component{
     render(){
         return (
-        <div>
-          <Header />
+          <div>
+            <Header />
             <div className='body-projetos'>
-             <PixelArt />       
-              <SpongeFy />       
+              <PixelArt />
+              <SpongeFy />
               <StarWars />
+              <DioBank />
               <MercadoLivre />
             </div>
-          <Footer />
-        </div>
-
-    )
+            <Footer />
+          </div>
+        );
     }
 }
 export default Projetos;
