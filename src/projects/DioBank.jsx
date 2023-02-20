@@ -1,7 +1,7 @@
 import React from "react";
 import pixel from '../image/bankdio.png';
 
-class StarWars extends React.Component {
+class DioBank extends React.Component {
     render() {
         return (
           <div className='projeto-div'>
@@ -15,4 +15,4 @@ class StarWars extends React.Component {
         );
     }
 }
-export default StarWars;
+export default DioBank;

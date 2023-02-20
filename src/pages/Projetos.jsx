@@ -5,6 +5,7 @@ import PixelArt from '../components/PixelArt';
 import SpongeFy from '../components/SpongeFy';
 import StarWars from '../projects/StarWars';
 import MercadoLivre from '../projects/MercadoLivre';
+import DioBank from '../projects/DioBank';
 
 
 class Projetos extends React.Component{
