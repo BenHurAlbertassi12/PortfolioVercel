@@ -1,9 +1,52 @@
-.container_menu-bar > ul{
+.header-container{
+    width: 250px;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+}
+
+.perfil-header{
+    text-align: center;
+    position: relative;
+    padding: 65px 25px 25px;
+}
+
+.perfil-header > img{
+    width: 90px;
+    border-radius: 100%;
+    border: solid 5px whitesmoke
+}
+
+.container_header-menu{
+    padding-top: 45px;
+    padding-bottom: 45px;
+    flex-wrap: wrap;
+
+}
+li{
     display: flex;
-    flex-direction: row;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    align-items: center;
+    
 }
-.container_menu-bar > ul > li{
-margin-right: 20px;
-list-style: none;
+
+
+footer{
+    position: absolute;
+    top: 95%;
+    left: 25%;
+
 }
+
+.icons{
+    width: 35px;
+    margin-right: 10px;
+}
+
+footer > a > img {
+    width:35px;
+}
+
 
