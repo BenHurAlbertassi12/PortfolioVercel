@@ -12,6 +12,7 @@ import { TestemonialsComponent } from './components/testemonials/testemonials.co
 
 // import { MatIconModule } from '@angular/material';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { IntroComponent } from './components/intro/intro.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     PortfoilComponent,
     ContactComponent,
     TestemonialsComponent,
+    IntroComponent,
   ],
   imports: [
     BrowserModule,

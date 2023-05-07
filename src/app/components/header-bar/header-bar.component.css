@@ -49,4 +49,7 @@ footer > a > img {
     width:35px;
 }
 
+hr{
+    filter: opacity(10%);
+}
 

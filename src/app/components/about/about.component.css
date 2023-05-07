@@ -1,0 +1,75 @@
+.container_aboute-me{
+    /* display: flex; */
+    margin-left: 15px;
+}
+.container_couses{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+
+    
+}
+
+.skills-bar{
+    font-weight: 500;
+}
+.date{
+
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+   
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+
+    margin-right: 250px;
+    background-color: #00695c;
+}
+
+.description{
+    margin-left: 25px;
+    margin-bottom: 0px;
+    padding: 0px;
+    margin-right: 150px;
+}
+
+.name, .instutute, .description_course, .skills, .title_skill, .skills-bar{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+
+}
+.course_name, 
+.description, 
+.name, 
+.instutute, 
+.description_course, 
+.skills,
+.title_skill,
+.skills-bar{
+    background-color: #160020;
+    border-radius: 5px;
+}
+
+.course_name, .skills{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+.center-itens{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.skills{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    align-items: start;
+    text-align: start;
+    background-color: #160020;
+    width: 450px;
+    margin-left: 15px;
+}
