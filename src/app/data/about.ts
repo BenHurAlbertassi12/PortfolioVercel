@@ -123,9 +123,86 @@ export const benhur = [
           'Usuarios',
         ],
       },
-        ],
-        projetctis: [{
-        
-    }]
+    ],
+    project: [
+      {
+        id: 1,
+        name: 'Portifólio',
+        stacks: ['Angular', 'JavaScript', 'TypeScript', 'HTML & CSS'],
+        reposit: 'https://github.com/BenHurAlbertassi12/PortfolioVercel',
+        imagem: '',
+      },
+      {
+        id: 2,
+        name: '',
+        stacks: ['', ''],
+        reposit: '',
+        imagem: '',
+      },
+      {
+        id: 3,
+        name: '',
+        stacks: ['', ''],
+        reposit: '',
+        imagem: '',
+      },
+      {
+        id: 4,
+        name: '',
+        stacks: ['', ''],
+        reposit: '',
+        imagem: '',
+      },
+      {
+        id: 5,
+        name: '',
+        stacks: ['', ''],
+        reposit: '',
+        imagem: '',
+      },
+      {
+        id: 6,
+        name: '',
+        stacks: ['', ''],
+        reposit: '',
+        imagem: '',
+      },
+      {
+        id: 7,
+        name: '',
+        stacks: ['', ''],
+        reposit: '',
+        imagem: '',
+      },
+      {
+        id: 8,
+        name: '',
+        stacks: ['', ''],
+        reposit: '',
+        imagem: '',
+      },
+      {
+        id: 9,
+        name: '',
+        stacks: ['', ''],
+        reposit: '',
+        imagem: '',
+      },
+      {
+        id: 10,
+        name: '',
+        stacks: [''],
+        reposit: '',
+        imagem: '',
+      },
+    ],
+    recomendations: [
+      {
+        id: 1,
+        name: '',
+        testemunhals: '',
+        imagem: '',
+      },
+    ],
   },
 ];
