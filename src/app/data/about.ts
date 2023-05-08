@@ -18,20 +18,60 @@ export const benhur = [
         id: 1,
         name: 'Desenvolvimento Web Full-stack',
         course: 'Trybe',
-            stacks: [{
-                fundamentos: {
-                
-                },
-                frontend: {
-                    
-                },
-                backend: {
-                    
-                },
-                cienciacomputacao: {
-                    
-                },
-        }],
+        stacks: [
+          {
+            fundamentos: [
+              {
+                stacks: [
+                  'Unix e Bash',
+                  'Git e Internet',
+                  'JS e DOM',
+                  'HTML e CSS',
+                  'Testes Unitários',
+                ],
+                imagem: '',
+              },
+            ],
+
+            frontend: [
+              {
+                stacks: [
+                  'LifeCycle',
+                  'Estado e Eventos',
+                  'Componentes Controlados',
+                  'Router',
+                  'RTL',
+                  'Redux',
+                  'Context API',
+                  'Hooks',
+                  'Metodologias Ageis',
+                ],
+              },
+            ],
+
+            backend: [
+              {
+                stacks: [
+                  'Docker',
+                  'banco de dados SQL e NoSQL',
+                  'Node.js e Express',
+                  'Mocha',
+                  'Chai e Sinon',
+                  'APIs em camadas',
+                  'REST',
+                  'JWT',
+                  'ORM/ODM',
+                  'Deploy',
+                  'TypeScript',
+                  'POO',
+                  'SOLID',
+                  'conceitos de CI/CD com Github Actions',
+                ],
+                imagem: '',
+              },
+            ],
+          },
+        ],
       },
       {
         id: 2,
@@ -68,12 +108,7 @@ export const benhur = [
         id: 4,
         name: 'TypeScript Fullstack Developer',
         course: 'Digital Innovation One',
-        stacks: [
-          'TypeScript',
-          'Node', 'JWT',
-          'React', 'APIs',
-          'POO'
-          ],
+        stacks: ['TypeScript', 'Node', 'JWT', 'React', 'APIs', 'POO'],
       },
       {
         id: 5,
@@ -88,6 +123,9 @@ export const benhur = [
           'Usuarios',
         ],
       },
-    ],
+        ],
+        projetctis: [{
+        
+    }]
   },
 ];
