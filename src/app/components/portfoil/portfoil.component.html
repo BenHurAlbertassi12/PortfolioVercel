@@ -7,6 +7,7 @@
         <p class="tecnologies">React</p>
         <p class="tecnologies">Angular</p>
     </div>
+    <div class="justficontent">
     <div 
     class="projects-list" 
     *ngFor="let project of projects"
@@ -20,7 +21,8 @@
             <p class="stacks">{{ project.stacks.join(', ') }}</p>
         </div>
         <a href="{{project.reposit}}" class="github-link">
-            <img src="../../../assets/icons/icons8-github-48 (1).png" alt="">
+            <img class="github-link" src="../../../assets/icons/icons8-github-48 (1).png" alt="">
         </a>
+</div>
 </div>
 </div>
