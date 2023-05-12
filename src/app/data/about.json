@@ -246,7 +246,7 @@
           ],
           "deploy": "https://github.com/BenHurAlbertassi12/TryUnfo",
           "reposit": "https://github.com/BenHurAlbertassi12/TryUnfo",
-          "imagem": "https://www.argali.com.br/wp-content/uploads/woocommerce-placeholder.png"
+          "imagem": "https://icons8.com.br/icon/74402/mongodb"
         },
         {
           "id": 10,
@@ -260,7 +260,7 @@
           ],
           "deploy": "https://github.com/BenHurAlbertassi12/StoreManager",
           "reposit": "https://github.com/BenHurAlbertassi12/StoreManager",
-          "imagem": "https://www.argali.com.br/wp-content/uploads/woocommerce-placeholder.png"
+          "imagem": "https://icons8.com.br/icon/74402/mongodb"
         },
         {
           "id": 12,
@@ -270,8 +270,8 @@
             "POO",
             "MongoDB"
           ],
-          "deploy": "https://github.com/BenHurAlbertassi12/carShop/blob/main/src/Controllers/MotocycleController.ts",
-          "reposit": "https://github.com/BenHurAlbertassi12/carShop/blob/main/src/Controllers/MotocycleController.ts",
+          "deploy": "https://github.com/BenHurAlbertassi12/carShop/",
+          "reposit": "https://github.com/BenHurAlbertassi12/carShop/",
           "imagem": "https://www.argali.com.br/wp-content/uploads/woocommerce-placeholder.png"
         },
         {

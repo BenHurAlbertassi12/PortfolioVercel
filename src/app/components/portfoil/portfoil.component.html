@@ -7,18 +7,20 @@
         <p class="tecnologies">React</p>
         <p class="tecnologies">Angular</p>
     </div>
-    <div class="projects-list">
-        <h4 class="title">SpongeFy</h4>
+    <div 
+    class="projects-list" 
+    *ngFor="let project of projects"
+    >
+    <div class="countainer">
+
+        <h4 class="title">{{ project.name }}</h4>
         <a href="">
-            <img src="../../../assets/icons/icons8-ok-64.png" alt="">
+            <img class="project_img" src="{{project.imagem}}" alt="">
         </a>
-        <div class="stacks-list">
-            <p class="stacks">HTML</p>
-            <p class="stacks">REACT</p>
-            <p class="stacks">REST</p>
+            <p class="stacks">{{ project.stacks.join(', ') }}</p>
         </div>
-        <a href="" class="github-link">
+        <a href="{{project.reposit}}" class="github-link">
             <img src="../../../assets/icons/icons8-github-48 (1).png" alt="">
         </a>
-    </div>
+</div>
 </div>
