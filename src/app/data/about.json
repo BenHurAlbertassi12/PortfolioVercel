@@ -8,7 +8,7 @@
         {
           "id": 1,
           "name": "Desenvolvimento Web Full-stack",
-          "course": "Trybe",
+          "course": "Trybe / 2022-2023",
           "stacks": [
             {
               "fundamentos": [
@@ -67,7 +67,7 @@
         {
           "id": 2,
           "name": "Orange Tech + | BackEnd",
-          "course": "Digital Innovation One",
+          "course": "Digital Innovation One / 2022",
           "stacks": [
             "Java",
             "SpringBoot",
@@ -83,14 +83,14 @@
         {
           "id": 3,
           "name": "Potência Tech Angular Developer",
-          "course": "Digital Innovation One",
+          "course": "Digital Innovation One / 2023",
           "stacks": [
             "JavaScript",
             "CSS",
             "APIs",
             "Angular",
             "Modulos",
-            "LifeCycle",
+            "Life Cycle",
             "Hooks",
             "Componentes",
             "TypeScript"
@@ -100,7 +100,7 @@
         {
           "id": 4,
           "name": "TypeScript Fullstack Developer",
-          "course": "Digital Innovation One",
+          "course": "Digital Innovation One / 2023",
           "stacks": [
             "TypeScript",
             "Node",
@@ -113,7 +113,7 @@
         },
         {
           "id": 5,
-          "name": "Linux do Zero",
+          "name": "Linux do Zero / 2022",
           "course": "Digital Innovation One",
           "stacks": [
             "Docker",
@@ -145,7 +145,7 @@
           "name": "App de Receitas",
           "stacks": [
             "React",
-            "HMLT & CSS",
+            "HTML & CSS",
             "Context API",
             "Hooks"
           ],
