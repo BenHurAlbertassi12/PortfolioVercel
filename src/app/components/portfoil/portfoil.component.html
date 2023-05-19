@@ -1,0 +1,28 @@
+<div class="countainer-portifoil">
+    <h1 class="projects">PROJETOS</h1>
+    <div class="tecnologies-bar">
+        <button class="tecnologies" (click)="filterProjectsByStack('all')">
+            Todos
+        </button>
+        <button 
+            class="tecnologies" 
+            *ngFor="let stack of allStacks" (click)="filterProjectsByStack(stack)">
+            {{ stack }}
+        </button>
+    </div>
+
+    <div class="justficontent">
+        <div class="projects-list" *ngFor="let project of projects">
+            <div class="countainer">
+                <h4 class="title">{{ project.name }}</h4>
+                <a href="">
+                    <img class="project_img" src="{{ project.imagem }}" alt="">
+                </a>
+                <p class="stacks">{{ project.stacks.join(', ') }}</p>
+            </div>
+            <a href="{{ project.reposit }}" class="github-link">
+                <img class="github-link" src="../../../assets/icons/icons8-github-48 (1).png" alt="">
+            </a>
+        </div>
+    </div>
+</div>

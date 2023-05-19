@@ -1,0 +1,61 @@
+<div class="container_aboute-me">
+  <h1 class="edu_skill">CURSOS & STACKS</h1>
+  <div class="center-itens">
+    <div class="container_couses">
+      <div class="courses">
+        <div *ngFor="let course of courses" class="course_name">
+          <h5 class="date">2022-2023</h5>
+          <div class="description">
+            <h3 class="name">{{ course.name }}</h3>
+            <h4 class="instutute">{{ course.course }}</h4>
+            <p class="description_course">
+              {{ course.stacks.join(", ") }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="totalstacks">
+      <h2 class="title_skill">STACKS</h2>
+      <div class="skills">
+        <ul class="skills-bar">
+          <li class="skills-bar-li">Angular <span class="habili"> Avançado </span></li>
+          <br class="space">
+          <li class="skills-bar-li">Context API <span class="habili"> Avançado </span></li>
+          <br class="space">
+        <li class="skills-bar-li">Express <span class="habili"> Intermediário </span></li>
+        <br class="space">
+        <li class="skills-bar-li">Hooks <span class="habili"> Avançado </span></li>
+        <br class="space">
+        <li class="skills-bar-li">GraphQL <span class="habili"> Basico </span></li>
+        <br class="space">
+        <li class="skills-bar-li">HTML & CSS <span class="habili"> Avançado </span></li>
+        <br class="space">
+        <li class="skills-bar-li">Java <br><span class="habili"> Basico </span></li>
+        <br class="space">
+        <li class="skills-bar-li">JavaScript <span class="habili"> Avançado </span></li>
+        <br class="space">
+        <li class="skills-bar-li">MongoDB <span class="habili"> Avançado </span></li>
+        <br class="space">
+      </ul>
+      <ul class="skills-bar">
+        <li class="skills-bar-li">MySQL <span class="habili"> Avançado</span></li>
+        <br class="space">
+        <li class="skills-bar-li">Node <span class="habili"> Intermediário</span></li>
+        <br class="space">
+        <li class="skills-bar-li">React <span class="habili"> Avançado</span></li>
+        <br class="space">
+        <li class="skills-bar-li">Redux <span class="habili"> Intermediário</span></li>
+        <br class="space">
+        <li class="skills-bar-li">REST <span class="habili"> Intermediário</span></li>
+        <br class="space">
+        <li class="skills-bar-li">SpringBoot <span class="habili"> Basico </span></li>
+        <br class="space">
+        <li class="skills-bar-li">TDD <span class="habili"> Intermediário</span></li>
+        <br class="space">
+        <li class="skills-bar-li">TypeScript <span class="habili"> Avançado</span></li>
+      </ul>
+    </div>
+  </div>
+  </div>
+</div>

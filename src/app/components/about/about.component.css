@@ -1,0 +1,163 @@
+.container_aboute-me {
+    /* display: flex; */
+    margin-left: 15px;
+}
+
+.container_couses {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+
+
+}
+
+.skills-bar {
+    font-weight: 500;
+}
+
+.date {
+
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+
+    margin-right: 250px;
+    background-color: #00695c;
+}
+
+.description {
+    margin-left: 25px;
+    margin-bottom: 0px;
+    padding: 0px;
+    margin-right: 150px;
+}
+
+.name,
+.instutute,
+.description_course,
+.skills,
+.title_skill,
+.skills-bar {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+
+}
+
+.course_name,
+.description,
+.name,
+.instutute,
+.description_course,
+.skills,
+/* .title_skill, */
+.skills-bar {
+    background-color: #160020;
+    border-radius: 5px;
+}
+
+.course_name {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.center-itens {
+    display: flex;
+    align-items: center;
+    width: 425px;
+
+}
+
+
+
+.description_course {
+    width: 375px
+}
+
+span {
+    color: rgb(58, 58, 58);
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 15px;
+
+}
+
+.skills-bar {
+    padding: 15px;
+    margin-right: 15px;
+
+}
+
+.skills-bar-li {
+    background-color: #160020;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+
+}
+
+.habili {
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #00695c;
+    color: rgb(180, 179, 179);
+}
+
+.title_skill {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    background-color: none;
+}
+
+.container_aboute-me {
+    padding-top: 2vw;
+    margin-left: 22vw;
+    width: 40vw;
+}
+
+
+@media (max-width: 800px) {
+
+*{
+  display: flex;
+  flex-direction: column;
+
+        padding-left: 0px;
+            margin-left: 0px;
+            border-left: 0px;
+}
+.container_aboute-me {
+        display: flex;
+        flex-direction: column;
+
+        padding-top: 2vw;
+        margin-left: 0vw;
+        width: 40vw;
+    }
+    .totalstacks{
+        display: inline;
+        padding-top: 5vw;
+    }
+    .skills{
+        flex-direction: row;
+    }
+    .description_course{
+        width: 35vh;
+    }
+    .course_name{
+        width: 390px;
+    }
+}

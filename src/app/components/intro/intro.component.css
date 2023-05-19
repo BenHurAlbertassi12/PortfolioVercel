@@ -1,0 +1,17 @@
+.intro-total{
+    padding-top: 2vw;
+        margin-left: 22vw;
+        width: 70vw;
+}
+@media (max-width: 800px)  {
+    *{
+        padding: 0px;
+        margin: 0px;
+        border: 0px;
+    }
+        .intro-total {
+            padding-top: 2vw;
+            margin-left: 2vw;
+            width: 100vw;
+        }
+}
