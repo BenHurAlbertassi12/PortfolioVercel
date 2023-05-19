@@ -1,5 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
 .obs {
     font-size: 10px;
+    padding-bottom: 30px;
 }
 
 .perfil-photo {
@@ -54,7 +60,7 @@ background-color: #160020;
 }
 
 .title{
-    margin: 25px;
+    margin-top: 25px;
     margin-left: 15px;
 }
 
@@ -62,4 +68,9 @@ background-color: #160020;
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+.testemonials {
+    padding-top: 2vw;
+        margin-left: 22vw;
+        width: 75%;
 }
