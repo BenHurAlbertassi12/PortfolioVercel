@@ -7,22 +7,20 @@ body {
     border-left: 0px;
 }
 .habili {
-    padding-left: 15px;
-    padding-right: 15px;
     background-color: #00695c;
     color: rgb(180, 179, 179);
 }
 
 .date {
-
+    
     margin: 0px;
     padding: 0px;
     border: 0px;
-
+    
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 15px;
-
+    
     margin-right: 250px;
     background-color: #00695c;
 }
@@ -38,35 +36,34 @@ body {
     border-radius: 5px;
 }
 
-span {
-    color: rgb(58, 58, 58);
-}
-
 .skills-bar-li {
     background-color: #160020;
     padding: 0px;
     margin: 0px;
     border: 0px;
+    width: 100px;
+    text-align: center;
 
 }
 
 @media (max-width: 800px) {
-    .container_aboute-me {
+    .container_aboute-me{
         display: flex;
         flex-direction: column;
-
-        padding-top: 2vw;
-        margin-left: 0vw;
-        width: 40vw;
+        align-items: center;
     }
 
     .totalstacks {
-        display: inline;
-        padding-top: 5vw;
+        text-align: center
     }
-
+    
     .skills {
-        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 350px;
+        
     }
 
     .description_course {
@@ -74,10 +71,17 @@ span {
     }
 
     .course_name {
-        width: 390px;
+        width: 365px;
+    }
+    .description{
+        margin-left: 25px;
+    }
+    .skills-bar-li{
+        /* width: 150px; */
+        margin-left: 15px;
+
     }
 }
-
 
 
 
@@ -116,7 +120,7 @@ span {
     margin-left: 25px;
     margin-bottom: 0px;
     padding: 0px;
-    margin-right: 150px;
+    margin-right: 125px;
 }
 
 .course_name {
