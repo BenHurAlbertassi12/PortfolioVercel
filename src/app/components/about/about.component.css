@@ -1,18 +1,16 @@
-.container_aboute-me {
-    /* display: flex; */
-    margin-left: 15px;
+body {
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 0px;
+    margin-left: 0px;
+    border-left: 0px;
 }
-
-.container_couses {
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-
-
-}
-
-.skills-bar {
-    font-weight: 500;
+.habili {
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #00695c;
+    color: rgb(180, 179, 179);
 }
 
 .date {
@@ -29,35 +27,96 @@
     background-color: #00695c;
 }
 
-.description {
-    margin-left: 25px;
-    margin-bottom: 0px;
-    padding: 0px;
-    margin-right: 150px;
-}
-
-.name,
-.instutute,
-.description_course,
-.skills,
-.title_skill,
-.skills-bar {
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-
-}
-
 .course_name,
 .description,
 .name,
 .instutute,
 .description_course,
 .skills,
-/* .title_skill, */
 .skills-bar {
     background-color: #160020;
     border-radius: 5px;
+}
+
+span {
+    color: rgb(58, 58, 58);
+}
+
+.skills-bar-li {
+    background-color: #160020;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+
+}
+
+@media (max-width: 800px) {
+    .container_aboute-me {
+        display: flex;
+        flex-direction: column;
+
+        padding-top: 2vw;
+        margin-left: 0vw;
+        width: 40vw;
+    }
+
+    .totalstacks {
+        display: inline;
+        padding-top: 5vw;
+    }
+
+    .skills {
+        flex-direction: row;
+    }
+
+    .description_course {
+        width: 35vh;
+    }
+
+    .course_name {
+        width: 390px;
+    }
+}
+
+
+
+
+
+
+@media (min-width: 801px) {
+.title_skill {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    background-color: none;
+}
+
+
+.container_aboute-me {
+    margin-left: 15px;
+}
+
+.container_couses {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+
+
+}
+
+.skills-bar {
+    font-weight: 500;
+}
+
+
+
+.description {
+    margin-left: 25px;
+    margin-bottom: 0px;
+    padding: 0px;
+    margin-right: 150px;
 }
 
 .course_name {
@@ -79,9 +138,7 @@
     width: 375px
 }
 
-span {
-    color: rgb(58, 58, 58);
-}
+
 
 .skills {
     display: flex;
@@ -98,66 +155,13 @@ span {
 
 }
 
-.skills-bar-li {
-    background-color: #160020;
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
 
-}
-
-.habili {
-    padding-left: 15px;
-    padding-right: 15px;
-    background-color: #00695c;
-    color: rgb(180, 179, 179);
-}
-
-.title_skill {
-    display: flex;
-    justify-content: center;
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
-    background-color: none;
-}
 
 .container_aboute-me {
     padding-top: 2vw;
     margin-left: 22vw;
     width: 40vw;
 }
-
-
-@media (max-width: 800px) {
-
-*{
-  display: flex;
-  flex-direction: column;
-
-        padding-left: 0px;
-            margin-left: 0px;
-            border-left: 0px;
 }
-.container_aboute-me {
-        display: flex;
-        flex-direction: column;
 
-        padding-top: 2vw;
-        margin-left: 0vw;
-        width: 40vw;
-    }
-    .totalstacks{
-        display: inline;
-        padding-top: 5vw;
-    }
-    .skills{
-        flex-direction: row;
-    }
-    .description_course{
-        width: 35vh;
-    }
-    .course_name{
-        width: 390px;
-    }
-}
+
