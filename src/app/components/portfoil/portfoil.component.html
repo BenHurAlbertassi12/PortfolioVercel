@@ -1,14 +1,17 @@
 <div class="countainer-portifoil">
-    <h1 class="projects">PROJETOS</h1>
     <div class="tecnologies-bar">
-        <button class="tecnologies" (click)="filterProjectsByStack('all')">
-            Todos
-        </button>
-        <button 
+        <h1 class="projects">PROJETOS</h1>
+        <div class="bar_tec">
+
+            <button class="tecnologies" (click)="filterProjectsByStack('all')">
+                Todos
+            </button>
+            <button 
             class="tecnologies" 
             *ngFor="let stack of allStacks" (click)="filterProjectsByStack(stack)">
             {{ stack }}
         </button>
+    </div>
     </div>
 
     <div class="justficontent">
