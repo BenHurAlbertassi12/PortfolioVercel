@@ -77,18 +77,23 @@ background-color: #160020;
 }
 /* } */
 @media (max-width: 800px ) {
-.testemonials {
-        margin-top: 25px;
-        margin-bottom: 205px;
+.container {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        text-align: center;
     }
-.linkedin_link{
-    
-}
+
+    .linkedin_link {
+        width: 88vh;
+        /* Estilos adicionais para .linkedin_link */
+    }
+
+    .testemonials {
+        width: 100%;
+        max-width: 88vh;
+        /* Estilos adicionais para .testemonials */
+    }
     
 
 }
