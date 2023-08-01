@@ -166,7 +166,7 @@
           ],
           "deploy": "https://starwars-plants.vercel.app",
           "reposit": "https://github.com/BenHurAlbertassi12/StarWarsSystem",
-          "imagem": "https://www.argali.com.br/wp-content/uploads/woocommerce-placeholder.png"
+          "imagem": "src/assets/starwarsplanets.jpg"
         },
         {
           "id": 4,
