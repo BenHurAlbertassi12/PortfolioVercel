@@ -137,8 +137,8 @@
             "HTML & CSS"
           ],
           "deploy": "",
-          "reposit": "https://github.com/BenHurAlbertassi12/PortfolioVercel",
-          "imagem": "../../../../assets/icons/icons8-ok-64.png"
+          "imagem": "https://raw.githubusercontent.com/BenHurAlbertassi12/PortfolioVercel/main/src/app/data/portifoil.jpg",
+          "reposit": "https://github.com/BenHurAlbertassi12/PortfolioVercel"
         },
         {
           "id": 2,
