@@ -149,9 +149,9 @@
             "Context API",
             "Hooks"
           ],
-          "deploy": "https://github.com/BenHurAlbertassi12/receitasApp",
+          "deploy": "https://receitasapp.vercel.app/",
           "reposit": "https://github.com/BenHurAlbertassi12/receitasApp",
-          "imagem": "https://www.argali.com.br/wp-content/uploads/woocommerce-placeholder.png"
+          "imagem": "https://raw.githubusercontent.com/BenHurAlbertassi12/PortfolioVercel/main/src/app/data/receitasApp.jpg"
         },
         {
           "id": 3,
