@@ -166,7 +166,7 @@
           ],
           "deploy": "https://starwars-plants.vercel.app",
           "reposit": "https://github.com/BenHurAlbertassi12/StarWarsSystem",
-          "imagem": "https://raw.githubusercontent.com/BenHurAlbertassi12/SeuRepositorioAqui/main/src/assets/starwarsplanets.jpg"
+          "imagem": "https://raw.githubusercontent.com/BenHurAlbertassi12/PortfolioVercel/main/src/app/data/starwarsplanets.jpg"
         },
         {
           "id": 4,
