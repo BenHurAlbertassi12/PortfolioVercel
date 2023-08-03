@@ -177,7 +177,7 @@
             "React",
             "HTML & CSS"
           ],
-          "deploy": "https://github.com/BenHurAlbertassi12/tryviaRedux/blob/main/src/pages/Game.js",
+          "deploy": "https://tryvia-redux-benhur.vercel.com",
           "imagem": "https://raw.githubusercontent.com/BenHurAlbertassi12/PortfolioVercel/main/src/app/data/Tryvia.jpg",
           "reposit": "https://github.com/BenHurAlbertassi12/tryviaRedux/tree/main"
 
