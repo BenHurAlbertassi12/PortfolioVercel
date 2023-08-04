@@ -234,7 +234,7 @@
           ],
           "deploy": "https://solar-system-pied-gamma.vercel.app",
           "reposit": "https://github.com/BenHurAlbertassi12/SolarSystem",
-          "imagem": "https://github.com/BenHurAlbertassi12/systemasolar.jpg/tree/main"
+          "imagem": "https://raw.githubusercontent.com/BenHurAlbertassi12/PortfolioVercel/main/src/app/data/systemasolar.jpg"
         },
         {
           "id": 9,
