@@ -136,12 +136,23 @@
       "TypeScript",
       "HTML & CSS"
     ],
-    "deploy": null,
+    "deploy": "https://spongefy.vercel.app",
     "imagem": "https://raw.githubusercontent.com/BenHurAlbertassi12/PortfolioVercel/main/src/app/data/spongefy.jpg",
     "reposit": "https://github.com/BenHurAlbertassi12/PortfolioVercel"
   },
+    {
+    "id": 2,
+    "name": "Shopping Cart",
+    "stacks": [
+      "JavaScript",
+      "DOM"
+    ],
+    "deploy": "https://github.com/BenHurAlbertassi12/shopping-cart",
+    "reposit": "https://github.com/BenHurAlbertassi12/shopping-cart",
+    "imagem": "https://www.argali.com.br/wp-content/uploads/woocommerce-placeholder.png"
+  },
   {
-    "id": 17,
+    "id": 3,
     "name": "Portifólio",
     "stacks": [
       "JavaScript",
@@ -153,7 +164,7 @@
     "reposit": "https://github.com/BenHurAlbertassi12/PortfolioVercel"
   },
   {
-    "id": 2,
+    "id": 4,
     "name": "App de Receitas",
     "stacks": [
       "React",
@@ -166,7 +177,7 @@
     "imagem": "https://raw.githubusercontent.com/BenHurAlbertassi12/PortfolioVercel/main/src/app/data/receitasApp.jpg"
   },
   {
-    "id": 3,
+    "id": 5,
     "name": "Star Wars System",
     "stacks": [
       "JavaScript",
@@ -181,7 +192,7 @@
     "imagem": "https://raw.githubusercontent.com/BenHurAlbertassi12/PortfolioVercel/main/src/app/data/starwarsplanets.jpg"
   },
   {
-    "id": 4,
+    "id": 6,
     "name": "Tryvia",
     "stacks": [
       "JavaScript",
@@ -193,6 +204,44 @@
     "imagem": "https://raw.githubusercontent.com/BenHurAlbertassi12/PortfolioVercel/main/src/app/data/Tryvia.jpg",
     "reposit": "https://github.com/BenHurAlbertassi12/tryviaRedux/tree/main"
 
+  },
+  {
+    "id": 7,
+    "name": "Sistem Solar",
+    "stacks": [
+      "React",
+      "Redux",
+      "HTML & CSS"
+    ],
+    "deploy": "https://solar-system-pied-gamma.vercel.app",
+    "reposit": "https://github.com/BenHurAlbertassi12/SolarSystem",
+    "imagem": "https://raw.githubusercontent.com/BenHurAlbertassi12/PortfolioVercel/main/src/app/data/systemasolar.jpg"
+  },
+  {
+    "id": 8,
+    "name": "TryUnfo",
+    "stacks": [
+      "JavaScript",
+      "HTML & CSS",
+      "React",
+      "Redux"
+    ],
+    "deploy": "https://github.com/BenHurAlbertassi12/TryUnfo",
+    "reposit": "https://github.com/BenHurAlbertassi12/TryUnfo",
+    "imagem": "https://www.argali.com.br/wp-content/uploads/woocommerce-placeholder.png"
+  },
+    {
+    "id": 13,
+    "name": "TrybeWallet",
+    "stacks": [
+      "Redux",
+      "JavaScript",
+      "HTML & CSS",
+      "React"
+    ],
+    "deploy": "https://github.com/BenHurAlbertassi12/Wallet",
+    "reposit": "https://github.com/BenHurAlbertassi12/Wallet",
+    "imagem": "https://www.argali.com.br/wp-content/uploads/woocommerce-placeholder.png"
   },
   {
     "id": 5,
@@ -234,31 +283,6 @@
     "reposit": "https://github.com/BenHurAlbertassi12/TrybeFutebolClub"
   },
   {
-    "id": 8,
-    "name": "Sistem Solar",
-    "stacks": [
-      "React",
-      "Redux",
-      "HTML & CSS"
-    ],
-    "deploy": "https://solar-system-pied-gamma.vercel.app",
-    "reposit": "https://github.com/BenHurAlbertassi12/SolarSystem",
-    "imagem": "https://raw.githubusercontent.com/BenHurAlbertassi12/PortfolioVercel/main/src/app/data/systemasolar.jpg"
-  },
-  {
-    "id": 9,
-    "name": "TryUnfo",
-    "stacks": [
-      "JavaScript",
-      "HTML & CSS",
-      "React",
-      "Redux"
-    ],
-    "deploy": "https://github.com/BenHurAlbertassi12/TryUnfo",
-    "reposit": "https://github.com/BenHurAlbertassi12/TryUnfo",
-    "imagem": "https://www.argali.com.br/wp-content/uploads/woocommerce-placeholder.png"
-  },
-  {
     "id": 10,
     "name": "Store Manager",
     "stacks": [
@@ -283,19 +307,6 @@
     "reposit": "https://github.com/BenHurAlbertassi12/carShop/"
   },
   {
-    "id": 13,
-    "name": "TrybeWallet",
-    "stacks": [
-      "Redux",
-      "JavaScript",
-      "HTML & CSS",
-      "React"
-    ],
-    "deploy": "https://github.com/BenHurAlbertassi12/Wallet",
-    "reposit": "https://github.com/BenHurAlbertassi12/Wallet",
-    "imagem": "https://www.argali.com.br/wp-content/uploads/woocommerce-placeholder.png"
-  },
-  {
     "id": 14,
     "name": "Talker Manager",
     "stacks": [
@@ -306,17 +317,6 @@
     ],
     "deploy": "https://github.com/BenHurAlbertassi12/talkerManager",
     "reposit": "https://github.com/BenHurAlbertassi12/talkerManager"
-  },
-  {
-    "id": 15,
-    "name": "Shopping Cart",
-    "stacks": [
-      "JavaScript",
-      "DOM"
-    ],
-    "deploy": "https://github.com/BenHurAlbertassi12/shopping-cart",
-    "reposit": "https://github.com/BenHurAlbertassi12/shopping-cart",
-    "imagem": "https://www.argali.com.br/wp-content/uploads/woocommerce-placeholder.png"
   },
   {
     "id": 16,
