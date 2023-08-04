@@ -134,29 +134,32 @@
       "Angular",
       "JavaScript",
       "TypeScript",
-      "HTML & CSS"
+      "HTML & CSS",
+      "API"
     ],
     "deploy": "https://spongefy.vercel.app",
     "imagem": "https://raw.githubusercontent.com/BenHurAlbertassi12/PortfolioVercel/main/src/app/data/spongefy.jpg",
     "reposit": "https://github.com/BenHurAlbertassi12/PortfolioVercel"
   },
-    {
+  {
     "id": 2,
     "name": "Shopping Cart",
     "stacks": [
       "JavaScript",
-      "DOM"
+      "DOM",
+      "API"
     ],
     "deploy": "https://shopping-cart-fawn-nu.vercel.app",
     "reposit": "https://github.com/BenHurAlbertassi12/shopping-cart",
-    "imagem": "https://github.com/BenHurAlbertassi12/trybeShopping.jpg"
+    "imagem": "https://raw.githubusercontent.com/BenHurAlbertassi12/PortfolioVercel/main/src/app/data/trybeShopping.jpg"
+
   },
   {
     "id": 3,
     "name": "Portifólio",
     "stacks": [
       "JavaScript",
-      "APIs",
+      "API",
       "HTML & CSS"
     ],
     "deploy": "https://spongefy.vercel.app",
@@ -170,7 +173,8 @@
       "React",
       "HTML & CSS",
       "Context API",
-      "Hooks"
+      "Hooks",
+      "API"
     ],
     "deploy": "https://receitasapp.vercel.app/",
     "reposit": "https://github.com/BenHurAlbertassi12/receitasApp",
@@ -181,7 +185,7 @@
     "name": "Star Wars System",
     "stacks": [
       "JavaScript",
-      "HTML",
+      "HTML & CSS",
       "BootsTrap",
       "React",
       "Hooks",
@@ -198,7 +202,8 @@
       "JavaScript",
       "Redux",
       "React",
-      "HTML & CSS"
+      "HTML & CSS",
+      "API"
     ],
     "deploy": "https://tryvia-redux-benhur.vercel.com",
     "imagem": "https://raw.githubusercontent.com/BenHurAlbertassi12/PortfolioVercel/main/src/app/data/Tryvia.jpg",
@@ -224,27 +229,29 @@
       "JavaScript",
       "HTML & CSS",
       "React",
-      "Redux"
+      "Redux",
+      "API"
     ],
     "deploy": "https://github.com/BenHurAlbertassi12/TryUnfo",
     "reposit": "https://github.com/BenHurAlbertassi12/TryUnfo",
     "imagem": "https://www.argali.com.br/wp-content/uploads/woocommerce-placeholder.png"
   },
     {
-    "id": 13,
+    "id": 9,
     "name": "TrybeWallet",
     "stacks": [
       "Redux",
       "JavaScript",
       "HTML & CSS",
-      "React"
+      "React",
+      "API"
     ],
     "deploy": "https://github.com/BenHurAlbertassi12/Wallet",
     "reposit": "https://github.com/BenHurAlbertassi12/Wallet",
     "imagem": "https://www.argali.com.br/wp-content/uploads/woocommerce-placeholder.png"
   },
   {
-    "id": 5,
+    "id": 30,
     "name": "Trybers&dragons",
     "stacks": [
       "TypeScrip",
@@ -254,7 +261,7 @@
     "reposit": "https://github.com/BenHurAlbertassi12/Trybers-and-dragons"
   },
   {
-    "id": 6,
+    "id": 31,
     "name": "Blogs API",
     "stacks": [
       "Docker",
@@ -268,7 +275,7 @@
     "reposit": "https://github.com/BenHurAlbertassi12/Blogs-Api"
   },
   {
-    "id": 7,
+    "id": 32,
     "name": "Trybe Futebol Club",
     "stacks": [
       "TypeScript",
@@ -283,7 +290,7 @@
     "reposit": "https://github.com/BenHurAlbertassi12/TrybeFutebolClub"
   },
   {
-    "id": 10,
+    "id": 33,
     "name": "Store Manager",
     "stacks": [
       "MySQL",
@@ -296,7 +303,7 @@
     "reposit": "https://github.com/BenHurAlbertassi12/StoreManager"
   },
   {
-    "id": 12,
+    "id": 34,
     "name": "carShop",
     "stacks": [
       "TypeScript",
@@ -307,7 +314,7 @@
     "reposit": "https://github.com/BenHurAlbertassi12/carShop/"
   },
   {
-    "id": 14,
+    "id": 35,
     "name": "Talker Manager",
     "stacks": [
       "Node",
@@ -319,7 +326,7 @@
     "reposit": "https://github.com/BenHurAlbertassi12/talkerManager"
   },
   {
-    "id": 16,
+    "id": 36,
     "name": "TrybeSmith",
     "stacks": [
       "TypeScript",
